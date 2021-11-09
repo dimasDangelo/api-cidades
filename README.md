@@ -27,7 +27,7 @@ Abaixo estão os recursos adicionados ao aplicativo:
 * execute o endpoint de importação de dados:
 
 ```
-http://localhost/laravel/api-cidades/public/api/importar
+http://localhost/api-cidades/public/api/importar
 ```
 -resultado esperado:
 ```json
@@ -44,12 +44,12 @@ http://localhost/laravel/api-cidades/public/api/importar
 
 * Lista todas as Cidades importadas:
 ```
-http://localhost/laravel/api-cidades/public/api/lista-cidades
+http://localhost/api-cidades/public/api/lista-cidades
 ```
 
 * Lista todos os endereços cadastrados:
 ```
-http://localhost/laravel/api-cidades/public/api/lista-enderecos
+http://localhost/api-cidades/public/api/lista-enderecos
 ```
 
 ### Endpoint's do tipo POST:
@@ -62,18 +62,18 @@ http://localhost/laravel/api-cidades/public/api/lista-enderecos
 
 * Cadastra um novo endereco 
 ```
-http://localhost/laravel/api-cidades/public/api/cadastra-endereco?logradouro={logradouro}&numero={numero}&bairro={bairro}&id_cidade={idCidade}
+http://localhost/api-cidades/public/api/cadastra-endereco?logradouro={logradouro}&numero={numero}&bairro={bairro}&id_cidade={idCidade}
 ```
 
 * Atualiza um cadastro pré existente
 ```
-http://localhost/laravel/api-cidades/public/api/atualiza-endereco?id={idEndereco}&logradouro={logradouro}&bairro={bairro}&numero={numero}&id_cidade={idCidade}
+http://localhost/api-cidades/public/api/atualiza-endereco?id={idEndereco}&logradouro={logradouro}&bairro={bairro}&numero={numero}&id_cidade={idCidade}
 ```
 
 ### Endpoint do tipo DELETE:
 * Deleta um endereço
 ```
-http://localhost/laravel/api-cidades/public/api/deleta-endereco?id={idEndereco}
+http://localhost/api-cidades/public/api/deleta-endereco?id={idEndereco}
 ```
 
 
